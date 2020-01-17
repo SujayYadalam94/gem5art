@@ -591,7 +591,7 @@ The following are compiled benchmarks:
 |------------------------|----------------|----------------|----------------|----------------|----------------------|
 | 500.perlbench_r        |        Success |        Success |              ? | Incorrect Output |                    ? |
 | 502.gcc_r              |        Success |        Success |              ? |        Success |                    ? |
-| 503.bwaves_r           |        Success |        Success |              ? |              ? |                    ? |
+| 503.bwaves_r           |        Success |        Success |              ? |        Success |                    ? |
 | 505.mcf_r              |        Success |        Success |              ? |        Success |                    ? |
 | 507.cactuBSSN_r        |        Success |        Success |              ? |        Success |                    ? |
 | 508.namd_r             |        Success |        Success |              ? |        Success |                    ? |
@@ -603,23 +603,23 @@ The following are compiled benchmarks:
 | 523.xalancbmk_r        |        Success |        Success |              ? |        Success |                    ? |
 | 525.x264_r             |        Success |        Success |              ? |              ? |                    ? |
 | 526.blender_r          |        Success |        Success |              ? |              x |                    ? |
-| 527.cam4_r             |        Success |        Success |              ? |              ? |                    ? |
+| 527.cam4_r             |        Success |        Success |              ? |        Success |                    ? |
 | 531.deepsjeng_r        |        Success |        Success |              ? |        Success |                    ? |
 | 538.imagick_r          |        Success |        Success |              ? |        Success |                    ? |
 | 541.leela_r            |        Success |        Success |              ? |        Success |                    ? |
-| 544.nab_r              |        Success |        Success |              ? |        Success |                    ? |
+| 544.nab_r              |        Success |        Success |        Success |        Success |                    ? |
 | 548.exchange2_r        |        Success |        Success |              ? |        Success |                    ? |
 | 549.fotonik3d_r        |        Success |              x |              ? |              x |                    ? |
 | 554.roms_r             |        Success |        Success |              ? |        Success |                    ? |
 | 557.xz_r               |        Success |        Success |              ? |        Success |                    ? |
 | 600.perlbench_s        |        Success |        Success |              ? |              x |                    ? |
 | 602.gcc_s              |        Success |        Success |              ? |        Success |                    ? |
-| 603.bwaves_s           |        Success |        Success |              ? |              ? |                    ? |
+| 603.bwaves_s           |        Success |        Success |              ? |        Success |                    ? |
 | 605.mcf_s              |        Success |        Success |              ? |        Success |                    ? |
 | 607.cactuBSSN_s        |        Success |        Success |              ? |        Success |                    ? |
 | 619.lbm_s              |        Success |        Success |              ? |        Success |                    ? |
 | 620.omnetpp_s          |        Success |        Success |              ? |        Success |                    ? |
-| 621.wrf_s              |        Success |        Success |              ? |              x |                    ? |
+| 621.wrf_s              |        Success |        Success |              x |              x |                    ? |
 | 623.xalancbmk_s        |        Success |        Success |              ? |        Success |                    ? |
 | 625.x264_s             |        Success |        Success |              ? |              ? |                    ? |
 | 627.cam4_s             | Workload Segfault | Workload Segfault |              ? |          Error |                    ? |
@@ -628,13 +628,13 @@ The following are compiled benchmarks:
 | 638.imagick_s          |        Success |        Success |              ? |        Success |                    ? |
 | 641.leela_s            |        Success |        Success |              ? |        Success |                    ? |
 | 644.nab_s              |        Success |        Success |              ? |        Success |                    ? |
-| 648.exchange2_s        |        Success |        Success |              ? |        Success |                    ? |
+| 648.exchange2_s        |        Success |        Success |              x |        Success |                    ? |
 | 649.fotonik3d_s        |        Success |        Success |              ? |        Success |                    ? |
 | 654.roms_s             |        Success |        Success |              ? |        Success |                    ? |
 | 657.xz_s               |        Success |        Success |              ? |        Success |                    ? |
 | 996.specrand_fs        |        Success |        Success |        Success |        Success |                    ? |
 | 997.specrand_fr        |        Success |        Success |        Success |        Success |                    ? |
-| 998.specrand_is        |        Success |        Success |              ? |        Success |                    ? |
-| 999.specrand_ir        |        Success |        Success |              ? |        Success |                    ? |
+| 998.specrand_is        |        Success |        Success |              x |        Success |                    ? |
+| 999.specrand_ir        |        Success |        Success |        Success |        Success |                    ? |
 
 
