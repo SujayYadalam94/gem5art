@@ -589,8 +589,8 @@ The following are compiled benchmarks:
 
 | Benchmarks             | KVM/test       | KVM/ref        | O3CPU/test     | AtomicCPU/test | TimingSimpleCPU/test |
 |------------------------|----------------|----------------|----------------|----------------|----------------------|
-| 500.perlbench_r        |        Success |        Success |              ? | Incorrect Output |                    ? |
-| 502.gcc_r              |        Success |        Success |              ? |        Success |                    ? |
+| 500.perlbench_r        |        Success |        Success |  gem5 segfault | Incorrect Output |                    ? |
+| 502.gcc_r              |        Success |        Success |              x |        Success |                    ? |
 | 503.bwaves_r           |        Success |        Success |              ? |        Success |                    ? |
 | 505.mcf_r              |        Success |        Success |              ? |        Success |                    ? |
 | 507.cactuBSSN_r        |        Success |        Success |              ? |        Success |                    ? |
@@ -602,13 +602,13 @@ The following are compiled benchmarks:
 | 521.wrf_r              |        Success |        Success |              ? |              x |                    ? |
 | 523.xalancbmk_r        |        Success |        Success |              ? |        Success |                    ? |
 | 525.x264_r             |        Success |        Success |              ? |              ? |                    ? |
-| 526.blender_r          |        Success |        Success |              ? |              x |                    ? |
+| 526.blender_r          |        Success |        Success |              x |              x |                    ? |
 | 527.cam4_r             |        Success |        Success |              ? |        Success |                    ? |
 | 531.deepsjeng_r        |        Success |        Success |              ? |        Success |                    ? |
 | 538.imagick_r          |        Success |        Success |              ? |        Success |                    ? |
 | 541.leela_r            |        Success |        Success |              ? |        Success |                    ? |
 | 544.nab_r              |        Success |        Success |        Success |        Success |                    ? |
-| 548.exchange2_r        |        Success |        Success |              ? |        Success |                    ? |
+| 548.exchange2_r        |        Success |        Success |              x |        Success |                    ? |
 | 549.fotonik3d_r        |        Success |              x |              ? |              x |                    ? |
 | 554.roms_r             |        Success |        Success |              ? |        Success |                    ? |
 | 557.xz_r               |        Success |        Success |              ? |        Success |                    ? |
@@ -629,12 +629,13 @@ The following are compiled benchmarks:
 | 641.leela_s            |        Success |        Success |              ? |        Success |                    ? |
 | 644.nab_s              |        Success |        Success |              ? |        Success |                    ? |
 | 648.exchange2_s        |        Success |        Success |              x |        Success |                    ? |
-| 649.fotonik3d_s        |        Success |        Success |              ? |        Success |                    ? |
+| 649.fotonik3d_s        |        Success |        Success |  gem5 segfault |        Success |                    ? |
 | 654.roms_s             |        Success |        Success |              ? |        Success |                    ? |
-| 657.xz_s               |        Success |        Success |              ? |        Success |                    ? |
+| 657.xz_s               |        Success |        Success |              x |        Success |                    ? |
 | 996.specrand_fs        |        Success |        Success |        Success |        Success |                    ? |
 | 997.specrand_fr        |        Success |        Success |        Success |        Success |                    ? |
 | 998.specrand_is        |        Success |        Success |              x |        Success |                    ? |
 | 999.specrand_ir        |        Success |        Success |        Success |        Success |                    ? |
 
+Letter 'x' indicates that the run failed for other reasons that are not related to gem5 and SPEC (eg. the host ran out of memory).
 
