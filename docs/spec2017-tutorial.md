@@ -596,8 +596,8 @@ The following are compiled benchmarks:
 | 507.cactuBSSN_r        |        Success |        Success |              ? |        Success |                    ? |
 | 508.namd_r             |        Success |        Success |              ? |        Success |                    ? |
 | 510.parest_r           |        Success |        Success |              ? | Workload Segfault |                    ? |
-| 511.povray_r           |        Success |        Success |              ? |        Success |                    ? |
-| 519.lbm_r              |        Success |        Success |              ? |        Success |                    ? |
+| 511.povray_r           |        Success |        Success |        Success |        Success |                    ? |
+| 519.lbm_r              |        Success |        Success |        Success |        Success |                    ? |
 | 520.omnetpp_r          |        Success |        Success |              ? |        Success |                    ? |
 | 521.wrf_r              |        Success |        Success |              ? |              x |                    ? |
 | 523.xalancbmk_r        |        Success |        Success |              ? |        Success |                    ? |
@@ -605,7 +605,7 @@ The following are compiled benchmarks:
 | 526.blender_r          |        Success |        Success |              x |              x |                    ? |
 | 527.cam4_r             |        Success |        Success |              ? |        Success |                    ? |
 | 531.deepsjeng_r        |        Success |        Success |              ? |        Success |                    ? |
-| 538.imagick_r          |        Success |        Success |              ? |        Success |                    ? |
+| 538.imagick_r          |        Success |        Success |        Success |        Success |                    ? |
 | 541.leela_r            |        Success |        Success |              ? |        Success |                    ? |
 | 544.nab_r              |        Success |        Success |        Success |        Success |                    ? |
 | 548.exchange2_r        |        Success |        Success |              x |        Success |                    ? |
@@ -625,9 +625,9 @@ The following are compiled benchmarks:
 | 627.cam4_s             | Workload Segfault | Workload Segfault |              ? |          Error |                    ? |
 | 628.pop2_s             |        Success |        Success |              ? |        Success |                    ? |
 | 631.deepsjeng_s        |        Success |        Success |              ? |        Success |                    ? |
-| 638.imagick_s          |        Success |        Success |              ? |        Success |                    ? |
+| 638.imagick_s          |        Success |        Success |        Success |        Success |                    ? |
 | 641.leela_s            |        Success |        Success |              ? |        Success |                    ? |
-| 644.nab_s              |        Success |        Success |              ? |        Success |                    ? |
+| 644.nab_s              |        Success |        Success |        Success |        Success |                    ? |
 | 648.exchange2_s        |        Success |        Success |              x |        Success |                    ? |
 | 649.fotonik3d_s        |        Success |        Success |  gem5 segfault |        Success |                    ? |
 | 654.roms_s             |        Success |        Success |              ? |        Success |                    ? |
