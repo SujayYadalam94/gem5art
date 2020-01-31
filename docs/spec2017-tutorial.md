@@ -591,7 +591,7 @@ The following are compiled benchmarks:
 |------------------------|----------------|----------------|----------------|----------------|----------------------|
 | 500.perlbench_r        |        Success |        Success |  gem5 segfault | Incorrect Output |                    ? |
 | 502.gcc_r              |        Success |        Success |              x |        Success |                    ? |
-| 503.bwaves_r           |        Success |        Success |              ? |        Success |                    ? |
+| 503.bwaves_r           |        Success |        Success |              x |        Success |                    ? |
 | 505.mcf_r              |        Success |        Success |        Success |        Success |                    ? |
 | 507.cactuBSSN_r        |        Success |        Success |        Success |        Success |                    ? |
 | 508.namd_r             |        Success |        Success |        Success |        Success |                    ? |
@@ -603,7 +603,7 @@ The following are compiled benchmarks:
 | 523.xalancbmk_r        |        Success |        Success |        Success |        Success |                    ? |
 | 525.x264_r             |        Success |        Success |              ? |        Success |                    ? |
 | 526.blender_r          |        Success |        Success |              x |              x |                    ? |
-| 527.cam4_r             |        Success |        Success |              ? |        Success |                    ? |
+| 527.cam4_r             |        Success |        Success |        Success |        Success |                    ? |
 | 531.deepsjeng_r        |        Success |        Success |        Success |        Success |                    ? |
 | 538.imagick_r          |        Success |        Success |        Success |        Success |                    ? |
 | 541.leela_r            |        Success |        Success |        Success |        Success |                    ? |
@@ -612,12 +612,12 @@ The following are compiled benchmarks:
 | 549.fotonik3d_r        |        Success |              x |        Success |              x |                    ? |
 | 554.roms_r             |        Success |        Success |              x |        Success |                    ? |
 | 557.xz_r               |        Success |        Success |        Success |        Success |                    ? |
-| 600.perlbench_s        |        Success |        Success |              ? |              x |                    ? |
+| 600.perlbench_s        |        Success |        Success |              x |              x |                    ? |
 | 602.gcc_s              |        Success |        Success |        Success |        Success |                    ? |
-| 603.bwaves_s           |        Success |        Success |              ? |        Success |                    ? |
+| 603.bwaves_s           |        Success |        Success |              x |        Success |                    ? |
 | 605.mcf_s              |        Success |        Success |        Success |        Success |                    ? |
 | 607.cactuBSSN_s        |        Success |        Success |        Success |        Success |                    ? |
-| 619.lbm_s              |        Success |        Success |              ? |        Success |                    ? |
+| 619.lbm_s              |        Success |        Success |        Success |        Success |                    ? |
 | 620.omnetpp_s          |        Success |        Success |        Success |        Success |                    ? |
 | 621.wrf_s              |        Success |        Success |              x |              x |                    ? |
 | 623.xalancbmk_s        |        Success |        Success |        Success |        Success |                    ? |
